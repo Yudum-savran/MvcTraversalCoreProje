@@ -41,7 +41,6 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
                 valueReceiver,
                 valueSender
             };
-
             _accountService.TMultiUpdate(modifedAccounts);
             return View();
         }
